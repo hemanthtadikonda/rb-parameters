@@ -1,7 +1,7 @@
 parameters = {
   "qa.docdb.mater_username" = { type = "String" , value = "docdbadmin" }
   "qa.docdb.master_password" = {type = "SecureString" , value = "roboshop1234"}
-  "qa.docdb.endpoint"   = { type = "String" , value = "" }
+  "qa.docdb.endpoint"   = { type = "String" , value = "qa-docdb-cluster.cluster-cec9yfajj5ic.us-east-1.docdb.amazonaws.com" }
 
   "qa.rds.master_username"  =  { type = "String" , value = "qaadmin" }
   "qa.rds.database_name"    =  { type = "String" , value = "dummy" }
@@ -24,7 +24,7 @@ parameters = {
 
 
   "qa.shipping.CART_ENDPOINT"={ type = "String" , value = "cart-dev.tadikonda.online:80" }
-  "qa.shipping.DB_HOST"={ type = "String" , value = "" }
+  "qa.shipping.DB_HOST"={ type = "String" , value = "qa-mysql-rds-cluster.cluster-cec9yfajj5ic.us-east-1.rds.amazonaws.com" }
 
   "qa.payment.CART_HOST"= { type = "String" , value = "cart-dev.tadikonda.online" }
   "qa.payment.CART_PORT"= { type = "String" , value = "80" }
