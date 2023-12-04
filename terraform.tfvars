@@ -16,9 +16,9 @@ parameters = {
 
 
 
-  "qa.user.REDIS_HOST"   = { type = "String" , value = "" }
+  "qa.user.REDIS_HOST"   = { type = "String" , value = "qa-redis-elasticache-cluster.2tso0w.0001.use1.cache.amazonaws.com:6379" }
 
-  "qa.cart.REDIS_HOST"     = { type = "String" , value = "" }
+  "qa.cart.REDIS_HOST"     = { type = "String" , value = "qa-redis-elasticache-cluster.2tso0w.0001.use1.cache.amazonaws.com:6379" }
   "qa.cart.CATALOGUE_HOST" = { type = "String" , value = "catalogue-dev.tadikonda.online" }
   "qa.cart.CATALOGUE_PORT" = { type = "String" , value = "80" }
 
