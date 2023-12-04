@@ -1,5 +1,5 @@
 parameters = {
-  "qa.docdb.mater_username" = { type = "String" , value = "docdbadmin" }
+  "qa.docdb.master_username" = { type = "String" , value = "docdbadmin" }
   "qa.docdb.master_password" = {type = "SecureString" , value = "roboshop1234"}
   "qa.docdb.endpoint"   = { type = "String" , value = "qa-docdb-cluster.cluster-cec9yfajj5ic.us-east-1.docdb.amazonaws.com" }
 
