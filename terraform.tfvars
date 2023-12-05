@@ -17,9 +17,9 @@ parameters = {
   "qa.catalogue.MONGO_URL"   = { type = "String" , value = "mongodb://docdbadmin:roboshop1234@qa-docdb-cluster.cluster-cec9yfajj5ic.us-east-1.docdb.amazonaws.com:27017/catalogue?tls=true&replicaSet=rs0&readPreference=secondaryPreferred&retryWrites=false" }
 
   "qa.user.MONGO_URL"   = { type = "String" , value = "mongodb://docdbadmin:roboshop1234@qa-docdb-cluster.cluster-cec9yfajj5ic.us-east-1.docdb.amazonaws.com:27017/users?tls=true&replicaSet=rs0&readPreference=secondaryPreferred&retryWrites=false" }
-  "qa.user.REDIS_HOST"   = { type = "String" , value = "qa-redis-elasticache-cluster.2tso0w.0001.use1.cache.amazonaws.com:6379" }
+  "qa.user.REDIS_HOST"   = { type = "String" , value = "qa-redis-elasticache-cluster.2tso0w.0001.use1.cache.amazonaws.com" }
 
-  "qa.cart.REDIS_HOST"     = { type = "String" , value = "qa-redis-elasticache-cluster.2tso0w.0001.use1.cache.amazonaws.com:6379" }
+  "qa.cart.REDIS_HOST"     = { type = "String" , value = "qa-redis-elasticache-cluster.2tso0w.0001.use1.cache.amazonaws.com" }
   "qa.cart.CATALOGUE_HOST" = { type = "String" , value = "catalogue-qa.tadikonda.online" }
   "qa.cart.CATALOGUE_PORT" = { type = "String" , value = "80" }
 
